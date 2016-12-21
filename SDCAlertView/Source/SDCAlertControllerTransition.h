@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Scotty Doesn't Code. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @interface SDCAlertAnimationController : NSObject <UIViewControllerAnimatedTransitioning>
 @property (nonatomic, getter=isPresentation) BOOL presentation;
