@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Scotty Doesn't Code. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 typedef NS_OPTIONS(NSInteger, SDCAlertActionStyle) {
 	SDCAlertActionStyleDefault = 1 << 0,
